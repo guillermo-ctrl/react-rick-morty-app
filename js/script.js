@@ -26,3 +26,10 @@ const aliveCharacters = characters.filter(
   character => character.status === 'Alive'
 )
 console.log(aliveCharacters)
+
+console.clear()
+
+const allCharacterNames = characters.map(
+  characters => characters.name
+)
+console.log(allCharacterNames)
